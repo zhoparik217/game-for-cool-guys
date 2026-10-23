@@ -3,7 +3,7 @@ public class Helper extends Monster {
     Helper(int sizeBoard, Person person) {
         super(sizeBoard);
         this.person = person;
-        setImage("👻"); // Смайлик привидения
+        setImage("👻");
     }
     @Override
     public boolean taskMonster(int difficultGame) {
