@@ -107,6 +107,10 @@ public class Main {
                     int x = scanner.nextInt();
                     int y = scanner.nextInt();
                     System.out.println(x + ", " + y);
+                    if (x < 1 || x > sizeBoard || y < 1 || y > sizeBoard) {
+                        System.out.println("Некорректный ход: координаты вышли за пределы поля от 1 до " + sizeBoard + "!");
+                        continue;
+                    }
 
                     if (person.isMoveCorrect(x, y)) {
                         if (board[y - 1][x - 1].equals("  ")) {
