@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Привет! Ты готов начать играть в игру? (Напиши: ДА или НЕТ)");
 
         Scanner scanner = new Scanner(System.in);
-        String answer = scanner.nextLine();
+        String answer = scanner.nextLine().trim().toUpperCase();
 
         System.out.println("Ваш ответ:\t" + answer);
 
