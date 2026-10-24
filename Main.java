@@ -144,7 +144,7 @@ public class Main {
                 }
 
                 if (person.getLive() <= 0) {
-                    System.out.println("Закончились жизни. Итог: ...");
+                    System.out.println("Закончились жизни.");
                 }
                 break;
 
