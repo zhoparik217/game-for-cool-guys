@@ -56,7 +56,7 @@ public class Main {
                     maxBigMonsters = 6;
                 }
 
-                int countMonster = sizeBoard * sizeBoard - sizeBoard - 10;
+                int countMonster = sizeBoard * sizeBoard - sizeBoard - 5;
                 Monster[] monsters = new Monster[countMonster];
                 int count = 0;
                 int currentHelpersCount = 0;
